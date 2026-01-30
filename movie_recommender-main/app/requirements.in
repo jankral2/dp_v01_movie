@@ -1,0 +1,9 @@
+# Core application dependencies
+# uv pip compile requirements.in -o requirements.txt
+streamlit>=1.32.0
+psycopg2-binary>=2.9.9
+sentence-transformers>=2.5.0
+google-genai>=1.0.0
+numpy>=1.26.0
+loguru>=0.7.0
+pydantic-settings>=2.0.0
