@@ -1,0 +1,42 @@
+# General
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.dist-info/
+.venv/
+
+# Environments
+.env
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Docker
+**/.dockerignore
+
+# Certs
+*.pem
+
+
+# Project-specific build output
+common/build/
+app/build/
+sync-job/build/
+sap-mockup/build/
+data/
+
+# Test files/folders
+eval-results/*
+!eval-results/.gitkeep
+**/fill_position_data_old/*
+**/old_scripts/*
+tests/output/*
